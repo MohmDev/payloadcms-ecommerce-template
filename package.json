@@ -6,6 +6,7 @@
     "pnpm": ">=8"
   },
   "scripts": {
+    "ii": "cross-env NODE_OPTIONS=--no-deprecation pnpm --ignore-workspace install",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -27,7 +28,6 @@
     "@lexical/react": "0.16.1",
     "@lexical/rich-text": "0.16.1",
     "@lexical/utils": "0.16.1",
-    "@payloadcms/db-mongodb": "3.0.0-beta.59",
     "@payloadcms/db-postgres": "3.0.0-beta.59",
     "@payloadcms/email-nodemailer": "3.0.0-beta.59",
     "@payloadcms/live-preview-react": "3.0.0-beta.59",
